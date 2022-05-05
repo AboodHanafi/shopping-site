@@ -1,0 +1,46 @@
+.hero {
+  width: 100%;
+  height: 678px;
+  background-color: #f2f2f2;
+}
+
+#inner-container-hero {
+  height: inherit;
+  justify-content: space-between;
+}
+
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  margin: 173px 0 190px;
+}
+.first-text-left-hero {
+  font: normal normal 300 32px/15px Muli;
+  letter-spacing: 1.28px;
+  color: #242424;
+  padding: 10px 0;
+}
+.second-text-left-hero {
+  padding: 10px 0;
+}
+.third-text-left-hero {
+  padding: 10px 0;
+  font: normal normal 300 32px/40px Muli;
+  max-width: 431px;
+  letter-spacing: 0.48px;
+  color: #242424;
+}
+
+.shop-now-hero-button {
+  width: 220px;
+  height: 56px;
+  font: normal normal normal 22px/18px Muli;
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border: none;
+}
+
+.hero-image {
+  width: 627px;
+  height: 644px;
+}

@@ -1,0 +1,76 @@
+.header {
+  height: 85px;
+  background-color: #242424;
+}
+
+#inner-container-header {
+  height: 50px;
+  padding: 18px 0 17px;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-weight: 900;
+  font: normal normal 900 40px/15px Muli;
+  letter-spacing: 1.6px;
+  color: #fcdd06;
+}
+.logo #shop {
+  color: #ffff;
+}
+
+.main-icons {
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.login-signup,
+.wish-list,
+.cart {
+  flex-direction: column;
+  width: 92px;
+}
+.cart-icon {
+  position: relative;
+}
+
+.wishlist-icon {
+  position: relative;
+}
+
+.search-box {
+  height: 40px;
+  width: 43%;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.input-search-box {
+  height: inherit;
+  width: 88%;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.search-button {
+  height: inherit;
+  width: 22%;
+  position: relative;
+}
+.button-search-box {
+  height: inherit;
+  width: 100%;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  border: none;
+  background-color: #fcdd06;
+  color: #000000;
+  font: normal normal bold 16px/20px Muli;
+}
+
+.search-box-icon {
+  position: absolute;
+  bottom: 11%;
+  left: 10px;
+}

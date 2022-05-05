@@ -1,0 +1,34 @@
+.Featured-Categories {
+  height: 483px;
+  width: auto;
+  margin-top: 60px;
+}
+
+.title-Featured-Categories {
+  font: normal normal bold "Muli";
+  letter-spacing: 1.28px;
+  color: #242424;
+  text-transform: uppercase;
+}
+
+.yellow-line {
+  width: 200px;
+  height: 7px;
+  background: #fcdd06 0% 0% no-repeat padding-box;
+}
+
+.images-Featured-Categories {
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.list-item-image {
+  width: 380px;
+  height: 346px;
+}
+.list-item-title {
+  text-align: center;
+  font: normal normal bold;
+  letter-spacing: 0.96px;
+  color: #242424;
+}
