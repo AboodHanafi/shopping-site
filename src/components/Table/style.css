@@ -1,0 +1,39 @@
+.table {
+  border: 1px solid #bcbcbc;
+  width: auto;
+  min-height: 110vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.table > h1 {
+  font: normal normal bold 24px/15px Muli;
+  letter-spacing: 0.96px;
+  color: #242424;
+}
+.ulList {
+  justify-content: space-between;
+  width: 100%;
+}
+.tablelist {
+  list-style: none;
+  height: 90vh;
+  width: 45%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tablelist > li {
+  width: 100%;
+  padding: 1rem;
+  justify-content: flex-start;
+}
+.first-span-table {
+  width: 70%;
+}
+
+.tablelist > li:nth-child(even) {
+  background: #f2f2f2;
+  border-radius: 10px;
+}

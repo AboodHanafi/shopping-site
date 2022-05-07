@@ -3,6 +3,7 @@ import HeroSction from "../../components/hero";
 import ProductsSection from "../../components/Products";
 import { Fragment } from "react";
 import { featureCatagoriesdData } from "../../Api/featuredCatagoriesData";
+import Table from "../../components/Table";
 
 import "./style.css";
 
