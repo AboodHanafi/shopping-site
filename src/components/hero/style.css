@@ -22,6 +22,7 @@
 }
 .second-text-left-hero {
   padding: 10px 0;
+  font-size: 4rem;
 }
 .third-text-left-hero {
   padding: 10px 0;
@@ -34,6 +35,7 @@
 .shop-now-hero-button {
   width: 220px;
   height: 56px;
+  margin-top: 24px;
   font: normal normal normal 22px/18px Muli;
   background: #fcdd06 0% 0% no-repeat padding-box;
   border-radius: 20px;
@@ -43,4 +45,33 @@
 .hero-image {
   width: 627px;
   height: 644px;
+}
+
+.hero .swiper .swiper-button-prev,
+.swiper-button-prev::before {
+  color: #000000;
+  /* top: 90%;
+  width: 90%; */
+}
+
+.swiper-button-next,
+.swiper-button-next::before {
+  color: #000000 !important ;
+  /* top: 97% !important;
+  width: 93% !important; */
+}
+.swiper-pagination {
+  bottom: 48px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #fcdd06 !important;
+}
+.swiper-button-next::after {
+  font-size: 1.5rem !important;
+  font-weight: 900 !important;
+}
+.swiper-button-prev::after {
+  font-size: 1.5rem !important;
+  font-weight: 900 !important;
 }

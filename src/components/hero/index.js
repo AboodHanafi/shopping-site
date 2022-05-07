@@ -1,12 +1,18 @@
 import "./style.css";
 
-import { Navigation, Pagination, A11y } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { data } from "../../Api/sliderData";
 // Import Swiper styles
 
+// swiper bundle styles
+import "swiper/css/bundle";
+
+// swiper core styles
 import "swiper/css";
+
+// modules styles
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
@@ -16,7 +22,7 @@ const HeroSection = () => {
     <div className="hero">
       <Swiper
         // install Swiper modules
-        modules={[Navigation, Pagination, A11y]}
+        modules={[Navigation, Pagination]}
         // spaceBetween={50}
         // slidesPerView={1}
         navigation

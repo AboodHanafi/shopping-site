@@ -32,3 +32,20 @@
   letter-spacing: 0.96px;
   color: #242424;
 }
+.top-rated-product .product-section {
+  background-color: #fff;
+}
+
+.top-rated-product .main-product-section {
+  padding: 0;
+}
+
+.top-rated-product .slider-main-product {
+  border: 1px solid #fcdd06;
+  border-radius: 16px;
+}
+
+.top-rated-product .title-main-product .text-main-title,
+.top-rated-product .product-section .yellow-line {
+  margin: 0;
+}

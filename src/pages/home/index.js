@@ -1,5 +1,6 @@
 import NavBar from "../../components/navBar";
 import HeroSction from "../../components/hero";
+import ProductsSection from "../../components/Products";
 import { Fragment } from "react";
 import { featureCatagoriesdData } from "../../Api/featuredCatagoriesData";
 
@@ -35,6 +36,13 @@ const HomePage = () => {
             );
           })}
         </div>
+      </div>
+      <div className="featured-product">
+        <ProductsSection test="featured" title="title1" />
+      </div>
+
+      <div className="top-rated-product">
+        <ProductsSection test="topRated" title="title2" />
       </div>
     </Fragment>
   );
